@@ -10,12 +10,22 @@
 <body>
     <div class="container">
         <img src="22.jpg" alt="time">
-        <h1 id="current-time">12:00:00</h1>
+        <h1 id="current-time"></h1>
         <div class="quotes">
             <p>TODAY's QUOTES</p>
             <h2>Lost time is never found again</h2>
         </div>
 
     </div>
+
+    <script>
+        let time = document.getElementById("current-time");
+        
+        setInterval(() =>{
+            let d = new Date ();
+             time.innerHTML = d.toLocaleTimeString();
+        },1000)
+        
+    </script>
 </body>
 </html>
