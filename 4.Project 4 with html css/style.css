@@ -54,4 +54,13 @@
     color: #fff;
     padding: 10px 40px;
     border-radius: 30px;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    display: inline-block;
+    margin: 40px 0;
+    font-size: 15px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-around;
 }
