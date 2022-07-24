@@ -47,6 +47,7 @@
     font-size: 22px;
     margin-top: 20px;
     text-align: center;
+    color: bisque;
 }
 .profile p{
     font-size: 12px;
@@ -76,7 +77,7 @@
 }
 
 .social-media h3{
-    font-weight: 500;
+    font-weight: 800;
     font-size: 16px;
 }
 
