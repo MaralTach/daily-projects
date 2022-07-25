@@ -10,7 +10,7 @@
      width: 200px;
      height: 300px;
      border-radius: 10%;
-     justify-items: center;
+     align-items: center;
 }
 
 .flover{
