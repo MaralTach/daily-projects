@@ -4,3 +4,19 @@
     width: 100vh;
     height: 100vh;
 }
+
+.card{
+    background: rgb(144, 144, 212);        
+     width: 200px;
+     height: 300px;
+     border-radius: 10%;
+     justify-items: center;
+}
+
+.flover{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: wheat;
+    margin: auto;
+}
