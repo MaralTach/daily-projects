@@ -25,3 +25,7 @@
     margin-left: 12px;
     margin-top: 12px;
 }
+
+.inst:hover{
+    color: red;
+}
