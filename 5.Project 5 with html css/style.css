@@ -3,6 +3,7 @@
     color: antiquewhite;
     width: 100vh;
     height: 100vh;
+    display: inline-block;
 }
 
 .card{
@@ -10,7 +11,9 @@
      width: 200px;
      height: 300px;
      border-radius: 10%;
-     align-items: center;
+     margin-right: auto;
+     margin-left: auto;
+
 }
 
 .flover{
@@ -18,5 +21,7 @@
     height: 60px;
     border-radius: 50%;
     background: wheat;
-    margin: auto;
+    margin-right: auto;
+    margin-left: 12px;
+    margin-top: 12px;
 }
