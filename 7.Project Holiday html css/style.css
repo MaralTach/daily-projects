@@ -8,6 +8,10 @@ a{
     text-decoration: none;
 }
 
+.navbar{
+    display: flex;
+}
+
 header{
     width: 100vw;
     height: 100vh;
@@ -32,7 +36,7 @@ header{
 .line{
     width: 150px;
     height: 4px;
-    background: rgb(228, 12, 59);
+    background: #fc036b;
     margin: 10px auto;
     border-radius: 5px;
 }
@@ -45,5 +49,7 @@ header{
 
 .ctn{
     padding: 8px 15px;
-    background: rgb(228, 12, 59);
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
 }
