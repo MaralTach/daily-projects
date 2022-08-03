@@ -11,7 +11,7 @@ a{
 header{
     width: 100vw;
     height: 100vh;
-    background: url(./img/66.webp);
+    background: url(./img/41.webp);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -22,4 +22,21 @@ header{
 .header-content{
     margin-bottom: 150px;
     color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: rgb(224, 24, 24);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 7vmin;
 }
