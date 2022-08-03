@@ -32,11 +32,18 @@ header{
 .line{
     width: 150px;
     height: 4px;
-    background: rgb(224, 24, 24);
+    background: rgb(228, 12, 59);
     margin: 10px auto;
     border-radius: 5px;
 }
 
 .header-content h1{
     font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn{
+    padding: 8px 15px;
+    background: rgb(228, 12, 59);
 }
