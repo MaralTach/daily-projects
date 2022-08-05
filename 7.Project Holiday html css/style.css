@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.active{
+.active {
     color: #fc036b;
     text-decoration: underline;
     font-weight: bold;
 }
 
 
-.navbar{
+.navbar {
     display: flex;
     position: absolute;
     top: 0;
@@ -32,16 +32,16 @@ ul{
     color: whitesmoke;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     align-items: center;
 }
 
-.nav-links li{
+.nav-links li {
     margin: 0 30px;
 }
 
-header{
+header {
     width: 100vw;
     height: 100vh;
     background: url(./img/41.webp);
@@ -52,17 +52,17 @@ header{
     justify-content: center;
 }
 
-.header-content{
+.header-content {
     margin-bottom: 150px;
     color: whitesmoke;
     text-align: center;
 }
 
-.header-content h2{
+.header-content h2 {
     font-size: 4vmin;
 }
 
-.line{
+.line {
     width: 150px;
     height: 4px;
     background: #fc036b;
@@ -70,48 +70,63 @@ header{
     border-radius: 5px;
 }
 
-.header-content h1{
+.header-content h1 {
     font-size: 7vmin;
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
-.ctn{
+.ctn {
     padding: 8px 15px;
     background: #fc036b;
     border-radius: 30px;
     color: whitesmoke;
 }
-.menu-btn{
+
+.menu-btn {
     position: absolute;
     top: 30px;
     right: 30px;
     width: 40px;
     cursor: pointer;
+    display: none;
 }
+
+
+.navbar {
+    padding: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+@media only screen and (max-width:850px) {
     
- 
-    .navbar{
-        padding: 0;
-    }
-    .logo{
-        position: absolute;
-        top: 30px;
-        left: 30px;
-    }
+.menu-btn{
+    display: block;
+}
 
-    .nav-links{
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        justify-content: center;
-        background: #484872;
-        margin-top: -900px;
-    }
 
-    .nav-links li{
-        margin: 30px auto;
+.nav-links {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background: #484872;
+    margin-top: -900px;
+    transition: all 0.5s ease
+    ;
+}
 
-    }
+.mobile-menu {
+    margin-top: 0px;
+    border-bottom-right-radius: 30%;
+}
 
-    
+.nav-links li {
+    margin: 30px auto;
+
+}
+}
