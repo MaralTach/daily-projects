@@ -171,11 +171,28 @@ p {
     width: 60%;
     padding: 50px;
     color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 240px;
 }
 
 .explore-content h1{
     font-size: 7vmin;
-    margin: 50px;
+    
+}
+
+.explore-content .line{
+    margin-bottom: 50px;
+}
+
+.explore-content p{
+    color: #fff;
+    
+}
+
+.explore-content .ctn{
+    margin-top: 40px;
 }
 
  @media only screen and (max-width:850px) { 
