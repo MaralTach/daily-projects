@@ -196,9 +196,13 @@ p {
     flex-wrap: wrap;
 }
 
+.tours .row .col{
+    width: 50%;
+}
+
 .tours .image-galery{
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 .image-galery img{
