@@ -196,6 +196,14 @@ p {
     flex-wrap: wrap;
 }
 
+.content-col{
+    width: 40%;
+}
+
+.image-col{
+    width: 4px;
+}
+
 .tours .row .col{
     width: 50%;
 }
@@ -203,10 +211,12 @@ p {
 .tours .image-galery{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .image-galery img{
-    width: 30px;
+    width: 20px;
+    margin: 10px;
 }
 
  @media only screen and (max-width:850px) { 
