@@ -197,11 +197,11 @@ p {
 }
 
 .content-col{
-    width: 40%;
+    width: 60%;
 }
 
 .image-col{
-    width: 4px;
+    width: 30px;
 }
 
 .tours .row .col{
@@ -218,7 +218,6 @@ p {
 .image-galery img{
     max-width: 250px;
     margin: 10px;
-    row-gap: ;
 }
 
 .content-col h1{
@@ -232,6 +231,10 @@ p {
 .content-col p{
     padding: 0;
     margin: 30px auto;
+    margin-left: 10px;
+}
+
+.content-col .ctn{
     margin-left: 10px;
 }
 
