@@ -253,7 +253,7 @@ p {
     padding: 20px auto;
 }
 
- @media only screen and (max-width:850px) { 
+  @media only screen and (max-width:850px) {
     
 .menu-btn{
     display: block;
