@@ -30,6 +30,8 @@ nav{
 
 nav .logo{
     width: 80px;
+    border-radius: 20px;
+
 }
 nav ul li{
     list-style: none;
