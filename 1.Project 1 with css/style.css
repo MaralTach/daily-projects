@@ -9,7 +9,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.7)50%, rgba(0,0,0,0.5)50%), url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg");
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    height: 100vh;
 }
 
 .navbar{
@@ -115,12 +115,13 @@ ul li a:hover{
     position: relative;
 }
 
-.content.par{
-    padding-left: 20px;
-    padding-bottom: 25px;
+.par{
+    padding-left: 30px;
+    padding-bottom: 20px;
     font-family: Arial;
     letter-spacing: 1.2px;
     line-height: 30px;
+    
 }
 
 
@@ -136,6 +137,7 @@ ul li a:hover{
 .content .cn{
     width: 160px;
     height: 40px;
+    margin-top: 2%;
     background: #ff7200;
     border: none;
     margin-bottom: 10px;
