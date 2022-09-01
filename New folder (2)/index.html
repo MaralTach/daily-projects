@@ -29,15 +29,27 @@
   <li><a href="#"></a></li>
   <li><a href="#"></a></li>
 </ul>
-   
+ <form action="">  
 <section>
   <label for="">Select base</label><br>
-  <input type="text" list="Gazete Oku list" id="gazete">
+  <select name="Gazete" id="gazete oku">
   <details id="gazete list">
     <option value="today">Today</option>
     <option value="yesterday">Yesterday</option>
     <option value="last week">Last week</option>
   </details>
+</select> 
 </section>
+<section><br>
+  <label for="">Select base</label><br>
+  <input type="text" list="cities" id="city" name="city">
+  <datalist name="Gazete" id="cities">
+    <option value="Russiya"></option>
+    <option value="Turkey"></option>
+    <option value="New York"></option>
+</datalist> 
+</section>
+
+</form>
 </body>
 </html>
