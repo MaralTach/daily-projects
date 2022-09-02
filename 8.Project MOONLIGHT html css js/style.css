@@ -57,24 +57,26 @@ section{
     width: 100%;
     height: 100vh;
     padding: 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
 }
 section img{
     position: absolute;
     top: 0;
-    left: o;
-    width: 80%;
-    height: 100vh;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 section img#moon{
     mix-blend-mode: screen;
-    height: 40%;
-    width: 40%;
-    padding-left: 300px;
-    margin-top: 50px;
 }
-section img#front{
-    width: 96%;
-    padding: 100px;
-
+#text{
+    position: absolute;
+    color: rgb(207, 107, 24);
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
 }
