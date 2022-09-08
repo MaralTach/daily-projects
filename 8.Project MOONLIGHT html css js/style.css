@@ -105,5 +105,14 @@ section img#front{
     font-size: 1.5em;
     z-index: 9;
     margin: -400px;
-
+}
+.sec{
+    position: relative;
+    padding: 100px;
+    background: #1c0552;
+}
+.sec h2{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
 }
