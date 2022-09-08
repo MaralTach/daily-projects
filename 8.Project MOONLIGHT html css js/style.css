@@ -62,6 +62,18 @@ section{
     align-items: center;
     
 }
+section:before{
+    position: relative;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#1c0522,transparent);
+    z-index: 1000;
+    margin-top: 600px;
+    
+}
+
 section img{
     position: absolute;
     top: 0;
@@ -109,10 +121,14 @@ section img#front{
 .sec{
     position: relative;
     padding: 100px;
-    background: #1c0552;
+    background: #200422;
 }
 .sec h2{
     font-size: 3.5em;
     margin-bottom: 10px;
+    color: #fff;
+}
+.sec p{
+    font-size: 1.2em;
     color: #fff;
 }
