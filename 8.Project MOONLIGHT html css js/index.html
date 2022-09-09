@@ -20,8 +20,8 @@
   <section>
     <img src="./img/pngwing.com.png" id="stars" alt="">
     <img src="./img/moon2.com.png" id="moon" alt="">
-    <a href="#sec" id="btn">Explore</a> 
     <h2 id="text" >Moon Light</h2>
+    <a href="#sec" id="btn">Explore</a> 
     <img src="./img/moun2.com.png" id="front" alt=""> 
   </section>
     <div class="sec" id="sec">
@@ -64,11 +64,24 @@
       </p>
     </div>
   <script>
-    document.getElementById('stars');
-    document.getElementById('moon');
-    document.getElementById('front');
-    document.getElementById('text');
-    document.getElementById('btn');
+    let stars = document.getElementById('stars');
+    let moon = document.getElementById('moon');
+    let front = document.getElementById('front');
+    let text = document.getElementById('text');
+    let btn = document.getElementById('btn');
+    let header = document.querySelector('header');
+
+    window.addEventListener('scroll',function(){
+      let value = window.scrollY;
+      stars.style.left = value * 0.25 + 'px';
+      moon.style.top = value * 0.80 + 'px';
+      front.style.top = value * 0 + 'px';
+      text.style.marginRight = value * 4 + 'px';
+      text.style.marginTop = value * 1.5 + 'px';
+      btn.style.marginTop = value * 0.50 + 'px';
+      header.style.top = value * 0.50 + 'px';
+
+    })
   </script>
 </body>
 </html>
